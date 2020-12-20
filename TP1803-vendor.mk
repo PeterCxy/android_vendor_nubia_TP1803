@@ -1,5 +1,4 @@
 # Copyright (C) 2020 The LineageOS Project
-# Copyright (C) 2020 Raphielscape LLC. and Haruka LLC.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -266,6 +265,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     WfdService \
+    CallFeaturesSetting \
     ConfURIDialer \
     ConferenceDialer \
     DeviceInfo \
@@ -292,7 +292,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    CallFeaturesSetting \
     WfdCommon \
     tcmclient \
     ActivityExt \
